@@ -39,6 +39,10 @@ android/bin/
 out/
 com_crashlytics_export_strings.xml
 
+#built application files
+*.apk
+*.ap_
+
 ## Eclipse
 .classpath
 .project
@@ -67,4 +71,9 @@ nb-configuration.xml
 ## Gradle
 
 .gradle
-build/
+
+# Windows thumbnail db
+Thumbs.db
+
+# OSX files
+.DS_Store
