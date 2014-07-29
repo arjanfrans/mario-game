@@ -116,8 +116,7 @@ public class World {
 		generateFlag((MapLayer) map.getLayers().get("objects"));
 		
 		stage.addActor(player);
-		String song = (String) map.getLayers().get("background").getObjects().get("background_image")
-				.getProperties().get("audio");
+		String song = (String) map.getLayers().get("background").getObjects().get("background_image").getProperties().get("audio");
 		Audio.stopSong();
 		Audio.playSong(song, true);
 		wr = new WorldRenderer(this);
