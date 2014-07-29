@@ -336,7 +336,7 @@ public class World {
 					TiledMapTile oldTile = cell.getTile();
 					
 					if(oldTile.getProperties().containsKey("texture")) {
-						D.o("Initializing textures");
+						//D.o("Initializing textures");
 						String texture = (String) oldTile.getProperties().get("texture");
 						if(textureArr.containsKey(texture)) {
 							oldTile.getTextureRegion().setRegion(textureArr.get(texture));
