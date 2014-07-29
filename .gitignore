@@ -20,8 +20,11 @@ www-test/
 core/bin/
 desktop/bin
 
-desktop/.settings
-desktop/.temp
+desktop/.settings/
+desktop/.temp/
+core/.settings/
+core/.temp/
+
 
 ## Android Studio and Intellij and Android in general
 android/libs/armeabi/
