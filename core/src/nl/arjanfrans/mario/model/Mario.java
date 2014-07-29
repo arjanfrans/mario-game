@@ -67,7 +67,7 @@ public class Mario extends Creature {
 
 	/**
 	 * 
-	 * @param flagRect Rectangle of the Flag object.
+	 * @param flag Flag object.
 	 * @param endX X-position of ending point.
 	 * @param endY Y-position of ending point.
 	 */
@@ -124,7 +124,7 @@ public class Mario extends Creature {
 				
 				collisionWithEnemy();
 				collisionWithMushroom();
-				applyPhysics(rect);
+                if(state != State.Dying) applyPhysics(rect);
 			}
 			
 		}
