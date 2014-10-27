@@ -16,7 +16,7 @@ Features of the game:
 * At the end of the level you can slide down the flag, you will then walk automatically to the castle. The game will then restart.
 * Sound effects and music.
 
-The project is updated to work with the new LibGdx release (1.2) which uses Gradle and has a different structure..
+The project is updated to work with the new LibGdx release (1.4.1) which uses Gradle and has a different structure..
 
 I am no longer adding new features to the game. Though, if you still find some bugs, just let me know (I might fix it)!
 
