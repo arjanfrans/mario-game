@@ -6,7 +6,7 @@ import com.badlogic.gdx.Game;
 
 /**
  * Super Mario Brothers like very basic platformer, using a tile map build via
- * <a href="http://www.mapeditor.org/>Tiled</a> and a tileset and sprites by <a
+ * <a href="http://www.mapeditor.org/">Tiled</a> and a tileset and sprites by <a
  * href="http://www.vickiwenderlich.com/">Vicky Wenderlich</a></p>
  * 
  * Shows simple platformer collision detection as well as on-the-fly map
