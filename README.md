@@ -31,7 +31,8 @@ Here is a video demo:
 ### Development setup
 
 1.  Install Java JDK.
-2   Install the Android SDK and setup an Android platform.
+2   Install the Android SDK and setup an Android platform. Set Android SDK path in 'local.properties'
+`sdk.dir=/my_current_way_to/sdk`
 2.  Install Gradle.
 3.  (I only tried this with IntelliJ Community Edition) Import the project into IntelliJ. Setup the project with the default settings.
 
