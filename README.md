@@ -27,3 +27,11 @@ Here is a video demo:
 ### Download
 
 [Click here](https://github.com/ArjanFrans/mario-game/releases/download/1/mario-game-1.0.jar) to download the game. You need [Java](https://java.com/nl/download/) to be able to run it.
+
+### Development setup
+
+1.  Install Java JDK.
+2   Install the Android SDK.
+2.  Install Gradle.
+3.  (I only tried this with IntelliJ Community Edition) Import the project into IntelliJ. Setup the project with the default settings.
+
