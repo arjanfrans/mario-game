@@ -30,9 +30,15 @@ Here is a video demo:
 
 ### Development setup
 
-1.  Install Java JDK.
-2   Install the Android SDK and setup an Android platform. Set Android SDK path in 'local.properties'
-`sdk.dir=/my_current_way_to/sdk`
-2.  Install Gradle.
-3.  (I only tried this with IntelliJ Community Edition) Import the project into IntelliJ. Setup the project with the default settings.
+1.  Install Java JDK. Make sure JAVA_HOME is in your environment variables.
+2.   Install the Android SDK and setup an Android platform. Make sure to set ANDROID_HOME in your environment variables.
+3.  Install Gradle.
+3.  Clone this repository. Open the project in your IDE.
+If you are using IntlliJ the Gradle plugin should be installed by default. The gradle project settings should popup.
+Accept the default settings. If it is missing the Android SDK
+ or JAVA_HOME make sure to setup Java and Android SDK in your environment variables.
+4. Edit your run configuration. Make sure `android/assets` is set as your working directory!
+5. When running in IntelliJ it should automatically compile.
 
+Setting up the project can be a pain, which I have experienced myself, even when I tried to set up my own project again.
+Please let me know if you are having trouble!
