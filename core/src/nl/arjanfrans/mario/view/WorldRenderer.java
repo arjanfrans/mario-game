@@ -63,7 +63,7 @@ public class WorldRenderer {
 		ParallaxLayer l2 = new ParallaxLayer(world, "middle_background", 0.5f,0);
 		ParallaxLayer l3 = new ParallaxLayer(world, "front_background", 0.3f,0);
 		ParallaxLayer[] layers ={l1, l2, l3};
-		parallax_bg= new ParallaxBackground(world, layers, camera, (SpriteBatch) renderer.getSpriteBatch());
+		parallax_bg= new ParallaxBackground(world, layers, camera, (SpriteBatch) renderer.getBatch());
 
 	}
 
@@ -151,7 +151,7 @@ public class WorldRenderer {
 		Gdx.gl.glViewport((int) viewport.x, (int) viewport.y, (int) viewport.width, (int) viewport.height);
 
 
-		drawBackground((SpriteBatch) renderer.getSpriteBatch(), camera.position.x, 0);
+		drawBackground((SpriteBatch) renderer.getBatch(), camera.position.x, 0);
 		//drawFarBackground(renderer.getSpriteBatch(), camera.position.x, 0);
 		//parallax_bg.moveX(Gdx.graphics.getDeltaTime(), camera.position.x); // move to the right to show the effect
 

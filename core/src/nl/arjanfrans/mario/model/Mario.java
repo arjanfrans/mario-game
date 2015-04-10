@@ -36,7 +36,7 @@ public class Mario extends Creature {
 	}
 
 	private void hitByEnemy() {	
-		if(immume == false) level--;
+		if(!immume) level--;
 		if(level < 1 && !immume) {
 			state = State.Dying;
 			velocity.set(0, 0);
