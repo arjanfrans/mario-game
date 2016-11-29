@@ -1,0 +1,75 @@
+
+backgrounds.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+big_mountain
+  rotate: false
+  xy: 1, 329
+  size: 384, 180
+  orig: 384, 180
+  offset: 0, 0
+  index: -1
+blue_sky
+  rotate: false
+  xy: 1, 71
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+three_mountains
+  rotate: false
+  xy: 387, 393
+  size: 336, 116
+  orig: 336, 116
+  offset: 0, 0
+  index: -1
+clouds
+  rotate: false
+  xy: 725, 396
+  size: 208, 113
+  orig: 208, 113
+  offset: 0, 0
+  index: -1
+small_mountain
+  rotate: false
+  xy: 387, 307
+  size: 192, 84
+  orig: 192, 84
+  offset: 0, 0
+  index: 2
+small_mountain
+  rotate: false
+  xy: 1, 1
+  size: 160, 68
+  orig: 160, 68
+  offset: 0, 0
+  index: 4
+small_mountain
+  rotate: false
+  xy: 581, 323
+  size: 160, 68
+  orig: 160, 68
+  offset: 0, 0
+  index: -1
+small_mountain
+  rotate: false
+  xy: 743, 326
+  size: 159, 68
+  orig: 159, 68
+  offset: 0, 0
+  index: 3
+castle_top
+  rotate: false
+  xy: 259, 247
+  size: 96, 80
+  orig: 96, 80
+  offset: 0, 0
+  index: -1
+small_cloud
+  rotate: false
+  xy: 935, 461
+  size: 64, 48
+  orig: 64, 48
+  offset: 0, 0
+  index: -1
