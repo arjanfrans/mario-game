@@ -4,7 +4,7 @@ Super Mario Bros. Clone
 
 A clone of Super Mario Bros. 16-bit version game.
 
-**NOTE: **Original assets have been replaced!
+**NOTE:** Original assets have been replaced!
 
 ### About
 This game is based of the Super Mario Bros. 16-bit version featured on Super Mario All-Starts for the Super Nintendo (SNES). The game is written in Java an using the [LibGdx](http://libgdx.badlogicgames.com/) engine.
@@ -16,17 +16,14 @@ Features of the game:
 * Jump up against bricks, they will be destroyed if you are big Mario.
 * Bonus bricks which can contain multiple Mushrooms.
 * At the end of the level you can slide down the flag, you will then walk automatically to the castle. The game will then restart.
-* **Sound effects, music and original assets have been removed.** 
 
-The project is updated to work with the new LibGdx release (1.4.1) which uses Gradle and has a different structure..
-
-I am no longer adding new features to the game. Though, if you still find some bugs, just let me know (I might fix it)!
-
-Here is a video demo:
+### Demo video
 
 [![Youtube video](http://img.youtube.com/vi/GxyUYAL4O7I/0.jpg)](http://www.youtube.com/watch?v=GxyUYAL4O7I)
 
 ### Development setup
+
+Using IntelliJ:
 
 1.  Install Java JDK. Make sure JAVA_HOME is in your environment variables.
 2.   Install the Android SDK and setup an Android platform. Make sure to set ANDROID_HOME in your environment variables.
