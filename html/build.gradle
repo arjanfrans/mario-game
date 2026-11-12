@@ -13,7 +13,6 @@ gwt {
 
     compiler {
         strict = true;
-        enableClosureCompiler = true;
         disableCastChecking = true;
     }
 }
@@ -25,7 +24,7 @@ task draftRun(type: JettyRunWar) {
     daemon=true
 }
 
-task superDev(type: de.richsource.gradle.plugins.gwt.GwtSuperDev) {
+task superDev(type: org.wisepersist.gradle.plugins.gwt.GwtSuperDev) {
     dependsOn draftRun
     doFirst {
     	gwt.modules = gwt.devModules
