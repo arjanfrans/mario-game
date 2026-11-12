@@ -43,6 +43,11 @@ task dist(dependsOn: [clean, compileGwt]) {
             from "webapp"
             into "build/dist"
             }
+        // Copy game assets so they are available on GitHub Pages
+        copy {
+            from "../../android/assets"
+            into "build/dist/assets"
+        }
         copy {
             from "war"
             into "build/dist"
