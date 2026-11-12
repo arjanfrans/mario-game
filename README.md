@@ -17,7 +17,9 @@ Features of the game:
 * Bonus bricks which can contain multiple Mushrooms.
 * At the end of the level you can slide down the flag, you will then walk automatically to the castle. The game will then restart.
 
-### Demo video
+### Demo
+
+Play here: https://www.arjanfrans.com/mario-game/
 
 [![Youtube video](http://img.youtube.com/vi/GxyUYAL4O7I/0.jpg)](http://www.youtube.com/watch?v=GxyUYAL4O7I)
 
